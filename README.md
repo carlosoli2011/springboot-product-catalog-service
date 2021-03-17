@@ -11,10 +11,10 @@ Access the restful service at http://localhost:8080
 
 API
 
+```
 Create Product
 Endpoint: http://localhost:8080/product
 Request Body:
-```
 {
   "id": "1",
   "title": "Title Product 1",
@@ -24,15 +24,20 @@ Request Body:
  }
  ```
 
+```
 Get Product
 Endpoint: http://localhost:8080/product/test-product-1
+```
 
+```
 Get Product List
 Endpoint: http://localhost:8080/product 
+```
 
+```
 Update Product
 Endpoint: http://localhost:8080/product (PUT)
-```
+Request Body:
 {
   "id": "1",
   "title": "Title Product 1 updated",
@@ -40,8 +45,8 @@ Endpoint: http://localhost:8080/product (PUT)
   "imagePath": "/images/product-1-updated.jpg",
   "unitPrice": 240.36
  }
- ```
- 
+```
+```
 Delete Product
 Endpoint: http://localhost:8080/product/test-product-id
-
+```
