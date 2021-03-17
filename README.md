@@ -14,6 +14,7 @@ API
 Create Product
 Endpoint: http://localhost:8080/product
 Request Body:
+```
 {
   "id": "1",
   "title": "Title Product 1",
@@ -21,6 +22,7 @@ Request Body:
   "imagePath": "/images/product-1.jpg",
   "unitPrice": 250.64
  }
+ ```
 
 Get Product
 Endpoint: http://localhost:8080/product/test-product-1
@@ -30,6 +32,7 @@ Endpoint: http://localhost:8080/product
 
 Update Product
 Endpoint: http://localhost:8080/product (PUT)
+```
 {
   "id": "1",
   "title": "Title Product 1 updated",
@@ -37,6 +40,7 @@ Endpoint: http://localhost:8080/product (PUT)
   "imagePath": "/images/product-1-updated.jpg",
   "unitPrice": 240.36
  }
+ ```
  
 Delete Product
 Endpoint: http://localhost:8080/product/test-product-id
