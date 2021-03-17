@@ -50,3 +50,14 @@ Request Body:
 Delete Product
 Endpoint: http://localhost:8080/product/test-product-id
 ```
+
+Testing example MicroService
+
+With the sample tests, we are able to validate
+
+API
+- Create Product (API returns a successful response)
+- Get Product (API returns a successful response, API returns correct product definition )
+- Get Product List (API returns a successful response, API returns the correct list of product definitions )
+- Update Product (API returns a successful response)
+- Delete Product (API returns a successful response)
