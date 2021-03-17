@@ -61,3 +61,16 @@ API
 - Get Product List (API returns a successful response, API returns the correct list of product definitions )
 - Update Product (API returns a successful response)
 - Delete Product (API returns a successful response)
+
+
+
+Deploying example microservice
+
+maven command: `mvn spring-boot:run`
+
+Maven build `mvn install` command
+
+You can directly execute the following command:
+`java -jar target/product-catalog-service-0.0.1-SNAPSHOT.jar`
+
+
